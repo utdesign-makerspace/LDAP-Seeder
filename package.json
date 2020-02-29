@@ -1,0 +1,27 @@
+{
+  "name": "LDAP-Seeder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utdesign-makerspace/LDAP-Seeder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/utdesign-makerspace/LDAP-Seeder/issues"
+  },
+  "homepage": "https://github.com/utdesign-makerspace/LDAP-Seeder#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "generate-password": "^1.5.1",
+    "ldapjs": "^1.0.2",
+    "node-ssha256": "^0.1.1",
+    "pg": "^7.18.2"
+  }
+}
