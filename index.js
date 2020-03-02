@@ -9,7 +9,7 @@ const generator = require('generate-password');
 let LDAPClient = ldap.createClient({
     url: 'ldap://10.244.138.150'
 })
-LDAPClient.bind("cn=admin, dc=utdmaker, dc=space", `stavMaker18`, (err) => {
+LDAPClient.bind("cn=admin, dc=utdmaker, dc=space", `password`, (err) => {
     AddUserToGroup('testboi','3D Printing', LDAPClient);
     if (err) {
         console.warn(err);
