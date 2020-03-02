@@ -4,7 +4,7 @@ let LDAPClient = ldap.createClient({
     url: 'ldap://10.244.138.150'
 })
 
-LDAPClient.bind("cn=admin, dc=utdmaker, dc=space", `stavMaker18`, (err) => {
+LDAPClient.bind("cn=admin, dc=utdmaker, dc=space", `password`, (err) => {
     LDAPClient.search("dc=utdmaker, dc=space", {
         filter: '(cn=*)',
         scope: 'sub'
